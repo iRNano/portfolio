@@ -1,0 +1,15 @@
+body{
+	background-color: lightgrey;
+}
+main{
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.container{
+	display: flex;
+	width: 75%;
+	align-items: center;
+}
