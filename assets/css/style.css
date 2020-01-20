@@ -10,7 +10,7 @@ html,body{
 	font-family: 'Lato', 'Arial', 'sans-serif';
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
-	background: linear-gradient(rgb(131, 210, 212), rgb(61, 88, 207))
+	background: linear-gradient(rgb(131, 210, 212), #3d58cf)
 
 }
 /* .container{
@@ -32,6 +32,7 @@ html,body{
 	margin:auto;
 	justify-content: center;
 	align-items: center;
+	box-shadow: 0 30px 80px 10px rgb(0,0,0,.2);
 }
 .description{
 	padding: 2rem;
@@ -62,16 +63,13 @@ html,body{
 	padding: 2rem;
 }
 
-.img-container{
-	/* width: 100%; */
-}
 .img-container img{
 	display: block;
 	height: 300px;
 	width: 300px;
 	object-fit: cover; 
 	border-radius: 50%;
-	border: 5px solid green;
+	border: 5px solid rgb(61, 88, 207, 0.5);
 	margin: auto;
 
 }
@@ -119,6 +117,7 @@ hr {
 	padding: 3rem;
 	width: 50%;
 	margin: auto;
+	box-shadow: 0 30px 80px 10px rgb(0,0,0,.2);
 }
 
 
